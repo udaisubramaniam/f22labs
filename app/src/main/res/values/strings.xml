@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">F22</string>
+    <string name="item_total">Item Total: Rs %1$.2f</string>
+    <string name="delivery_charge">Delivery Charge: Rs %1$.2f</string>
+    <string name="all_items_total">Total: Rs %1$.2f</string>
+    <string name="grand_total">Grand Total: Rs %1$.2f</string>
+    <string name="item_quantity">Qty: %1d</string>
+    <string name="price">Rs %1$.2f</string>
+</resources>

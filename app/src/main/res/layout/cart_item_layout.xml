@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/iv_food"
+        android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:layout_weight="0.3"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_quantity"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_totalItemprice"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_below="@id/itemLayout"/>
+
+</RelativeLayout>

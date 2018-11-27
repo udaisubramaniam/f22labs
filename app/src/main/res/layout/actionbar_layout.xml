@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:clickable="false">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:src="@drawable/cart_icon"
+        android:id="@+id/iv_cartIcon"/>
+
+    <TextView
+        android:id="@+id/tv_totalQuantityCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_cartIcon"
+        android:textColor="@android:color/white"
+        android:clickable="false"/>
+
+</RelativeLayout>
